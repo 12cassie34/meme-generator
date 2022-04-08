@@ -1,3 +1,8 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -26,4 +31,45 @@ header {
   font-family: 'Inter';
   font-weight: 500;
   font-size: 12px;
+}
+
+.meme {
+  display: flex;
+  flex-direction: column;
+  margin: 36px;
+}
+
+.meme__inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.meme__inputs__input {
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  width: 48%;
+  height: 35px;
+  box-sizing: border-box;
+  text-indent: 11px;
+}
+
+.meme__inputs__input:focus {
+  outline: none !important;
+  border:1px solid #711F8D;
+  box-shadow: 0 0 5px #A818DA;
+}
+
+.meme__btn {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  color: white;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.img-container {
+  margin-top: 36px;
 }
